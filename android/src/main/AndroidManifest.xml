@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noevo.native_video_picker">
+
+    <application>
+        <!-- This invisible Activity hosts the modern system Photo Picker -->
+        <activity
+            android:name="com.noevo.native_video_picker.PickerProxyActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>
+
